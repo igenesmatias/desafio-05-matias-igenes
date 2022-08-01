@@ -1,0 +1,380 @@
+/* reseteo css */
+* {
+    Margin:0px;
+    padding:0px;
+ }
+
+
+.contenedor {
+    display: grid;
+    background-color: #ffffff;
+    grid-template-areas: "header header header"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+
+
+}
+
+.contenedor div {
+    
+    color: #000000;
+    text-align: center;
+    border: 1px solid black;
+}
+/* fondo del body */
+body {
+    margin: 10px;
+            
+}
+.item-1 {
+    grid-area: header;
+    background-color: beige;
+    margin: 10px;
+
+}
+
+.item-2 {
+    grid-area: nav;
+    background-color: rgb(89, 94, 92);
+    margin: 10px;
+    
+    
+}
+
+.item-3 {
+    grid-area: main;
+    background-color: #eedfdf;
+    margin: 10px;
+}
+
+.item-4 {
+    grid-area: footer;
+    background-color: #a3a1a1;
+    margin: 10px;
+}
+
+/* diseño H1 */
+h1 {
+    color: #323139;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    border-style: solid;
+}
+
+h3 {
+    padding: 10px;
+}
+
+/* diseño p */
+p {
+    padding: 10px;
+    text-align: center;
+
+}
+img {
+    padding: 10px;
+}
+.introduccion {
+    font-weight: bold;
+    padding: 5px;
+    
+}
+/* diseño de tabla */
+table {
+    margin: auto;
+}
+.tabla {   
+    border-style: solid;
+            
+}
+
+/* diseño link a */
+a {
+    color: #000000;
+    text-decoration: none;
+  
+}
+
+/* Navegador */
+ul {
+    list-style-type: none;
+    text-align: center;
+    
+        
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* estilo de imagenes OBRA */
+.obra-1 {
+    height: 300px;
+    width: 300px;
+}
+.cruce-obra {
+    height: 300px;
+    width: 300px;
+}
+.obra-panoramica {
+    height: 300px;
+    width: 300px;
+}
+
+.en-construccion {
+    height: 300px;
+    width: 300px;
+}
+
+.imagenes {
+    display: flex;   
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.insta {
+    color: #DA70D6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fecha {
+    padding: 5px;
+
+
+}
+
+.pais {
+    padding: 10px;
+
+
+}
+.fecha-escrita {
+    padding: 10px;
+
+
+}
+
+.fuente-especial {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+/* centrado de imagen */ 
+img {
+    display: block;
+    margin: auto;
+
+}
+
+.ser {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parrafo-ing {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.insta {
+    color: #DA70D6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.derechos {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* estilo SOBRE MI */
+
+.sobre {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/*Smarthphone (mobilefirst)*/
+@media (max-width: 480px) {
+    body {
+        background-color: #5a6858;
+    }
+
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .parrafo-ing {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .imagen-de-obra {
+        width: 350px;
+        height: 350px;
+    }
+    .fuente-especial {
+        font-size: 35px;
+    }
+    
+    .ser {
+        font-size: 35px;
+
+    }
+    
+    .ingeniero {
+        width: 350px;
+        height: 350px;
+    }
+    .obra-1 {
+        height: 350px;
+        width: 350px;
+    }
+    .cruce-obra {
+        height: 350px;
+        width: 350px;
+    }
+    .obra-panoramica {
+        height: 350px;
+        width: 350px;
+    }
+    
+    .en-construccion {
+        height: 350px;
+        width: 350px;
+    }
+    .imagenes {
+        display: flex;   
+        flex-direction: column; 
+        
+    }
+    .sitio-en-construccion {
+        height: 350px;
+        width: 350px;
+
+    }
+
+
+}
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 1023px) {
+    body {
+        background-color: #505250;
+    }
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    .parrafo-ing {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .imagen-de-obra {
+        width: 500px;
+        height: 500px;
+    }
+    .fuente-especial {
+        font-size: 35px;
+    }
+    
+    .ser {
+        font-size: 35px;
+
+    }
+    
+    .ingeniero {
+        width: 500px;
+        height: 500px;
+    }
+    .obra-1 {
+        height: 500px;
+        width: 500px;
+    }
+    .cruce-obra {
+        height: 500px;
+        width: 500px;
+    }
+    .obra-panoramica {
+        height: 500px;
+        width: 500px;
+    }
+    
+    .en-construccion {
+        height: 500px;
+        width: 500px;
+    }
+    .imagenes {
+        display: flex;   
+        flex-direction: column; 
+        
+    }
+    .sitio-en-construccion {
+        height: 550px;
+        width: 500px;
+
+    }
+}
+
+/*desktop*/
+@media (min-width:  1024px){
+    body {
+        background-color: #cbd8c8;
+    }
+
+        
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .parrafo-ing {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .imagen-de-obra {
+        width: 1240px;
+        height: 650px;
+    }
+    .fuente-especial {
+        font-size: 35px;
+    }
+    
+    .ser {
+        font-size: 35px;
+
+    }
+    
+    .ingeniero {
+        width: 500px;
+        height: 500px;
+    }
+    .obra-1 {
+        height: 500px;
+        width: 500px;
+    }
+    .cruce-obra {
+        height: 500px;
+        width: 500px;
+    }
+    .obra-panoramica {
+        height: 500px;
+        width: 500px;
+    }
+    
+    .en-construccion {
+        height: 500px;
+        width: 500px;
+    }
+    .imagenes {
+        display: flex;   
+        flex-direction: column; 
+        
+    }
+    .sitio-en-construccion {
+        height: 1000px;
+        width: 1000px;
+
+    }
+}
