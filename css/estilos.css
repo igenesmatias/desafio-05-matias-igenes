@@ -12,6 +12,7 @@
     "nav nav nav"
     "main main main"
     "footer footer footer";
+    background-image: linear-gradient(black, yellow);
 
 
 }
@@ -75,7 +76,11 @@ p {
 }
 img {
     padding: 10px;
+    height: 100px;
+        
 }
+
+
 .introduccion {
     font-weight: bold;
     padding: 5px;
@@ -94,13 +99,19 @@ table {
 a {
     color: #000000;
     text-decoration: none;
+    transition: background-color .5s;
   
 }
+
+a:hover {
+    background-color: gold;
+  }
 
 /* Navegador */
 ul {
     list-style-type: none;
     text-align: center;
+    
     
         
 }
